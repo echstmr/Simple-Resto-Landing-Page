@@ -1,0 +1,68 @@
+.header{
+    padding: 40px 0;
+}
+
+.header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header nav .logo img{
+    cursor: pointer;
+    width: 150px;
+}
+
+.header nav ul{
+    display: inline-flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.header nav ul li{
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+    color: var(--txt-black);
+}
+
+.header nav ul li:hover{
+        color: #EA6D27;
+}
+
+.header nav button{
+    font-size: 16px;
+    width: 140px;
+    height: 60px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;   
+    background-color: var(--prmry-clr);
+    border: none;
+}
+
+.hero-btn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.bar-icon{
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 1000px){
+    nav ul li{
+        display: none;
+    }
+
+    .header nav button{
+        display: none;
+    }
+
+    .bar-icon{
+        display: block;
+    }
+}
