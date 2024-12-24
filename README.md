@@ -1,6 +1,6 @@
 # React + Vite
 Simple Restaurant Landing Page
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+this template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 ![ScreenShot Tool -20241224143043](https://github.com/user-attachments/assets/22ef789b-6145-45aa-a455-5c5784f89b4d)
 
